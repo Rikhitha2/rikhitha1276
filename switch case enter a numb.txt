@@ -1,0 +1,36 @@
+#include<stdio.h>
+
+void main()
+{
+    int a;
+    printf("Please enter a no between 1 and 5: ");
+    scanf("%d",&a);
+    
+    switch(a)
+    {
+    case 1:
+    printf("You selected One");
+    break;
+    
+    case 2:
+    printf("You selected Two");
+    break;
+
+    case 3:
+    printf("You selected Three");
+    break;
+
+    case 4:
+    printf("You selected Four");
+    break;
+
+    case 5:
+    printf("You selected Five.");
+    break;
+
+    default :
+    printf("Invalid Choice. Enter a no between 1 and 5");
+    break;
+    }
+
+} 
