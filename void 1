@@ -1,0 +1,58 @@
+#include<stdio.h>
+void add();
+void sub();
+void mult();
+void div();
+void main()
+{ 
+printf("function calling my self");
+add();
+sub();
+mult();
+div();
+}
+
+void add()
+{
+	int a,b,c;
+	printf("enter thr value of a");
+	scanf("%d",&a);
+	printf("enter the value of b");
+	scanf("%d",&b);
+	c=a+b;
+	printf("addition of two numbers is %d", c);
+}
+
+void sub()
+{
+	int a,b,d;
+printf("enter thr value of a");
+	scanf("%d",&a);
+	printf("enter the value of b");
+	scanf("%d",&b);
+	d=a-b;
+	printf("substraction of two numbers is %d", d);	
+}
+
+void mult()
+{
+	int a,b,e;
+	printf("enter thr value of a");
+	scanf("%d",&a);
+	printf("enter the value of b");
+	scanf("%d",&b);
+	e=a*b;
+	printf("multiplication of two numbers is %d", e);
+}
+
+void div()
+{
+	int a,b,f;
+	printf("enter thr value of a");
+	scanf("%d",&a);
+	printf("enter the value of b");
+	scanf("%d",&b);
+	f=a/b;
+	printf("division of two numbers is %d", f);
+
+}
